@@ -6,10 +6,10 @@ const buttonStyles = cva(
 	{
 		variants: {
 			intent: {
-				primary: 'bg-neutral-500 text-black',
+				primary: 'bg-giv-500 text-neutral-100',
 				secondary:
-					'bg-gray-200 text-gray-900 dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-gray-100 focus:ring-gray-500',
-				danger: 'bg-red-500 text-white focus:ring-red-500',
+					'bg-giv-900 text-gray-900 dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-gray-100 focus:ring-gray-500',
+				danger: 'bg-danger-500 text-white focus:ring-red-500',
 			},
 			fullWidth: {
 				true: 'w-full',
