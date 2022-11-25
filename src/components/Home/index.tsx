@@ -1,6 +1,5 @@
 import { Button } from '@ui/Button';
 import { Container } from '@ui/Container';
-import { Link } from '@ui/Link';
 
 export function Home() {
 	return (
@@ -12,19 +11,8 @@ export function Home() {
 					</span>
 				</div>
 				<div className="mt-8 prose-lg">
-					Welcome to{' '}
-					<Link href="https://nytro.dev" rel="noopener" target="_blank">
-						Nytro
-					</Link>
-					, a project scaffold by{' '}
-					<Link
-						href="https://twitch.tv/VapeJuiceJordan"
-						rel="noopener"
-						target="_blank"
-					>
-						VapeJuiceJordan
-					</Link>
-					. This project contains a very minimal note-taking application.
+					Welcome to . This project contains a very minimal note-taking
+					application.
 				</div>
 
 				<Button href="/notes" fullWidth>
