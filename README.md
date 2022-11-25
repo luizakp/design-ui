@@ -1,4 +1,3 @@
-
 ## Getting Started
 
 First you need to install the required dependencies:
